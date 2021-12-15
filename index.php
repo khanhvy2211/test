@@ -30,12 +30,15 @@ if(isset($_POST["submit"]))
 		else{
 			echo '<center>Tài khoản bạn không tồn tại</center>';
 		}
-	} else{
-		echo '<center>xin chao</center>';
-	}
+	} 
 		
 }
-
+export class AppComponent{
+	title = 'app';
+	calculate (x,y){
+		console.log("x+y=",x+y);
+	}
+}
 ?>
 
 <!DOCTYPE html>
