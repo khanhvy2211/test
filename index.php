@@ -33,12 +33,7 @@ if(isset($_POST["submit"]))
 	} 
 		
 }
-export class AppComponent{
-	title = 'app';
-	calculate (x,y){
-		console.log("x+y=",x+y);
-	}
-}
+
 ?>
 
 <!DOCTYPE html>
