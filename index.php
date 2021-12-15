@@ -10,7 +10,9 @@ if(isset($_SESSION['email'])){
 	
 }
 
-
+if(!isset($_SESSION['email'])){
+	header('location: TrangChu.php');
+}
 if(isset($_POST["submit"]))
 {
 	$email=$_POST["email"];
@@ -30,6 +32,8 @@ if(isset($_POST["submit"]))
 		else{
 			echo '<center>Tài khoản bạn không tồn tại</center>';
 		}
+	} else{
+		echo '<center>xin chao</center>';
 	}
 		
 }
