@@ -10,9 +10,7 @@ if(isset($_SESSION['email'])){
 	
 }
 
-if(!isset($_SESSION['email'])){
-	header('location: TrangChu.php');
-}
+
 if(isset($_POST["submit"]))
 {
 	$email=$_POST["email"];
