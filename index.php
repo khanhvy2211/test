@@ -52,6 +52,7 @@ if(isset($_POST["submit"]))
 	<div id="form-login" >
 	
 		<h2>Đăng nhập </h2>
+		<h2>Khanh Vy </h2>
 	
 	    <ul>
 	       	
